@@ -1,0 +1,39 @@
+<form>
+    <h2>Order Form</h2>
+    <fieldset>
+        <legend>Customer Details</legend>
+        <label> Customer name: <input type="text" name="username" required></label></p>
+        <label> Mobile number: <input type="text" name="mobile number" required></label></p>
+        <label> Email address: <input type="email" name="email"></label></p>
+    </fieldset>
+    <fieldset>
+        <legend>Pizza options</legend>
+        <label>
+            Flavor:
+            <select name="flavor">
+            <option value="Hawaiian">Hawaiian</option>
+            <option value="Double Cheese">Double Cheese</option>
+            <option value="Margherita">Margherita</option>
+            <option value="Barbecue Bacon Cheeseburger">Barbecue Bacon Cheeseburger</option>
+            <option value="Pepperoni Cheese">Pepperoni Cheese</option>
+            </select></p>
+        </label>
+        Size:
+              <label><input type="radio" name="size" value="Small"> Small </label>
+              <label><input type="radio" name="size" value="Medium"> Medium </label>
+              <label><input type="radio" name="size" value="Large"> Large </label></p>
+        Extra Toppings:
+              <label><input type="checkbox" name="extra toppings" value="Bacon"> Bacon </label>
+              <label><input type="checkbox" name="extra toppings" value="Cheese"> Cheese </label>
+              <label><input type="checkbox" name="extra toppings" value="Onion"> Onion </label>
+              <label><input type="checkbox" name="extra toppings" value="Mushroom"> Mushroom </label>
+    </fieldset>
+    <fieldset>
+       <legend>Delivery Details</legend>
+       <label> Delivery date: <input type="date" name="bday" required></label></p>
+       <label> Preferred delivery time: <input type="time" name="delivery time" required></label></p>
+       <label> Delivery address: <br><textarea rows="5" cols="50" required>Type something here..</textarea></label>
+    </fieldset>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit Order</button>
+</form>
