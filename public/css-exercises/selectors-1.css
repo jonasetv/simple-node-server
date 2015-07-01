@@ -1,0 +1,8 @@
+h1 {color: blue; text-align: center}
+fieldset {
+background-color: gray; /* Sets the background color of the element */
+padding: 3px; /* Adjusts the top, right, bottom and left padding of the element */
+margin: 3px; /* Adjusts the top, right, bottom and left margin of the element */
+width: 100px;
+margin: 0px auto; /* Sets the top and bottom margin to 0px and the left and right margin are automatically calculated */
+}
